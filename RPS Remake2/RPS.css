@@ -1,0 +1,35 @@
+* {
+box-sizing:border-box;
+}
+
+body {
+margin:0;
+overflow:hidden;
+background-color:ghostwhite;
+}
+
+.flexbox-container {
+display:flex;
+flex-direction:start;
+justify-content:center;
+align-items:center;
+
+}
+
+#gameBox {
+position:absolute;
+top:30%
+}
+
+button {
+color:white;
+border:1px solid #40E0D0;
+background-color:#40E0D0;
+font-family:arial;
+font-weight: 550;
+height:30px;
+width:70px;
+user-select:none;
+cursor:pointer;
+row-gap:8px;
+}
